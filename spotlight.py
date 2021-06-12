@@ -34,12 +34,12 @@ for files in list:
     if size > 143360:
         assets.append(files)
 
-#copying the files for assets to our destination folder
+#copying the files from assets to our destination folder
 for f in assets:
     if os.path.exists(des+'/'+f+'.jpg') == False:
         shutil.copy(src=dir+f, dst=des)
 
-#this function renames the files in the destination, i.e convering file type to .jpg
+#this function renames the files in the destination, i.e converting file type to .jpg
 def rename(img):
     p = Path(des+'/'+img)
     p.rename(p.with_suffix('.jpg'))
