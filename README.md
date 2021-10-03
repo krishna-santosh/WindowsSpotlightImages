@@ -8,6 +8,8 @@ These images maybe subjected to *copyright*
 * Download the zip file and extract it.
 * Open **spotlight.bat** file.
 
+![WindowsSpotlight](https://user-images.githubusercontent.com/75202541/135760271-fe0ce618-25a0-4d7e-a294-9214f6a13b57.gif)
+
 ### Method 2
 #### Install Pillow using pip 
     pip install Pillow
