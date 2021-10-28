@@ -5,7 +5,11 @@
 import os
 import shutil
 from pathlib import Path
-from PIL import Image
+try:
+    from PIL import Image
+except:
+    os.system("pip install Pillow")
+    from PIL import Image
 
 __author__ = 'Krishna Santosh'
 
