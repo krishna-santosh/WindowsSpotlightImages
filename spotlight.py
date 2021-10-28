@@ -11,8 +11,6 @@ except:
     os.system("pip install Pillow")
     from PIL import Image
 
-__author__ = 'Krishna Santosh'
-
 user_path = os.path.expanduser('~')
 drive_letter = user_path[:2]
 
