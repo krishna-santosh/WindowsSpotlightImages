@@ -52,7 +52,7 @@ def rename(img):
 for f in assets:
     if os.path.exists(despath+'/'+f+'.jpg') == False  and os.path.exists(portrait+'/'+f+'.jpg') == False and os.path.exists(landscape+'/'+f+'.jpg') == False:
         rename(f)
-        print(f)
+        # print(f)
 
 def orientation(pic):
     image = Image.open(pic)
@@ -73,4 +73,4 @@ for file in list_2:
 
 os.system(f'start {os.path.realpath(despath)}')
 
-print('Done!')
+# print('Done!')
