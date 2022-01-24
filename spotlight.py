@@ -16,7 +16,7 @@ drive_letter = user_path[:2]
 
 #this is the source path of windows spotlight images 
 dir = f'{user_path}/AppData/Local/Packages/Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy/LocalState/Assets/'
-despath = f'{drive_letter}/Windows_Spotlight_Images'
+despath = f'{user_path}/Pictures/Windows_Spotlight_Images'
 portrait = f'{despath}/Portrait'
 landscape = f'{despath}/Landscape'
 Horizontal = (1920, 1080)
