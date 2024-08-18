@@ -1,3 +1,19 @@
+---
+⚠️ Archived ⚠️
+
+
+A better version of this application is available at [krishna-santosh/Windows_Spotlight](https://github.com/krishna-santosh/Windows_Spotlight) 🌱
+
+- No external dependencies required (like Python)
+- Lightweight and efficient
+- Improved performance
+- Easy Installation
+
+I highly recommend using the new version for a better experience.
+
+---
+
+
 # Windows Spotlight Images
 This is a small python code to get windows spotlight wallpapers (lock screen images)  
   
